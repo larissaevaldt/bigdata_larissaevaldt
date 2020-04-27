@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  /* moved to the center of the screen but at the top */
+  /* justify-content: center; */
+  /* made them on top of each other and moved to the middle of the screen but left corner, not at the top anymore */
+  flex-direction: column;
+  /* now this makes it really on the center */
+  align-items: center;
+}
+
+.back {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0.8;
+}
+
+.heading {
+  height: 20vh;
+  width: 60%;
+  /* they where one on top of each other, display flex made them be beside */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: #cecece;
+}
+
+.byname {
+  color: #cecece;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#cocktailname {
+  padding: 8px 12px;
+  border-radius: 17px;
+}
+
+#submit {
+  padding: 9px 15px;
+  border-radius: 17px;
+  background-color: #ecad38;
+  color: white;
+}
+
+#submit:hover {
+  background-color: #c2820a;
+  cursor: pointer;
+}
+
+.cocktail {
+  margin: 0 auto;
+  width: 50vw;
+  background: rgba(44, 43, 43, 0.95);
+  padding: 12px 30px;
+  border-radius: 20px;
+  color: #cecece;
+}

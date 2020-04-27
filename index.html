@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Cocktail Recipes</title>
+  </head>
+  <body>
+    <img class="back" src="/img/moss-iRF0psyhz10-unsplash.jpg" alt="" />
+    <div class="heading">
+      <h1>
+        Tired of always drinking the same thing? Check new cocktail recipes
+      </h1>
+    </div>
+
+    <div class="byname">
+      <form>
+        <label for="cocktailname">Search by name</label>
+        <input type="text" placeholder="cocktail name" id="cocktailname" />
+        <button type="submit" id="submit" class="submit">
+          Search
+        </button>
+      </form>
+    </div>
+
+    <div class="cocktail">
+      <h3>Cocktail Name</h3>
+      <img src="" alt="" />
+      <h5 class="alcohol">Alcoholic</h5>
+      <h5>Category: <span class="category"></span></h5>
+      <h5>Served in: <span class="glass"></span></h5>
+      <h5>Instructions: <span class="instructions"></span></h5>
+      <h5>Ingredients: <span class="ingredients"></span></h5>
+    </div>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
