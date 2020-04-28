@@ -42,35 +42,68 @@ body {
   color: #cecece;
 }
 
-.byname {
+.options {
   color: #cecece;
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 20px;
+  display: flex;
+  margin: 10px 10px;
 }
 
-#cocktailname {
+input {
   padding: 8px 12px;
   border-radius: 17px;
+  margin-left: 10px;
 }
 
-#submit {
+button {
   padding: 9px 15px;
   border-radius: 17px;
-  background-color: #ecad38;
+  background-color: #c2820a;
+  border: none;
   color: white;
+  margin-left: 10px;
 }
 
-#submit:hover {
-  background-color: #c2820a;
+button:hover {
+  background-color: white;
+  color: #c2820a;
   cursor: pointer;
 }
 
 .cocktail {
+  display: none;
   margin: 0 auto;
   width: 50vw;
   background: rgba(44, 43, 43, 0.95);
   padding: 12px 30px;
   border-radius: 20px;
   color: #cecece;
+}
+
+.cocktail-click {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 50vw;
+  background: rgba(44, 43, 43, 0.95);
+  padding: 12px 30px;
+  border-radius: 20px;
+  color: #cecece;
+}
+
+#imageid {
+  width: 25vw;
+  height: 30vh;
+  margin: 0 auto;
+}
+
+h5 span {
+  font-weight: 400;
+}
+
+#ingredient-section {
+  font-weight: 400;
+  font-size: 13.28px;
 }
