@@ -21,6 +21,10 @@ body {
   align-items: center;
 }
 
+h1 {
+  color: white;
+}
+
 .back {
   position: fixed;
   height: 100%;
@@ -93,7 +97,7 @@ button:hover {
   color: #cecece;
 }
 
-#imageid {
+img {
   width: 25vw;
   height: 30vh;
   margin: 0 auto;
@@ -104,6 +108,11 @@ h5 span {
 }
 
 #ingredient-section {
+  font-weight: 400;
+  font-size: 13.28px;
+}
+
+span {
   font-weight: 400;
   font-size: 13.28px;
 }
